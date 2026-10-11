@@ -138,7 +138,7 @@ workspacetools:Toggle("Freecam", false, function(enabled)
     end
 end, "video")
 workspacetools:Button("Custom Output", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/nondevelopers/nondev-scripts/main/custom_output.luau"))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/nonfq/scripts/main/Universal/CustomOutput.luau'))()
 end, false, "terminal")
 
 workspacetools:Section("Use custom output")
